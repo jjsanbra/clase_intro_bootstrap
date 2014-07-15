@@ -1,29 +1,36 @@
+/* Clase para Articles - Artículos de la Sección Principal */
+article {
+	background-color: rgba(80,80,80,0.5);
+	border-radius: 20px;
+	color: #fff;
+	height: 90%;
+}
+
 /* Clase Container - Contenedor Principal */
 .container {
 	background-color: #eee;
-	height: 150px;
 }
 
 /* Clase barra-nav - Barra de Navegación Principal */
 .barra-nav {
 	background-color: #bbb;
-	height: 50px;
+	height: 40px;
 }
 
 /* Clase para Aside - Aside Superior */
 .aside-bg {
 	background-color: #f55;
-	height: 200px;
+	height: 150px;
 }
 
 /* Clase para Section - Sección Principal */
 .section-bg {
 	background-color: #fa0;
-	height: 250px;
+	height: 200px;
 }
 
-/* Clase para Articles - Artículos de la Sección Principal */
-.article-bg {
-	background-color: #f40;
-	height: 75%;
+/* Clase para Footer - Footer de Página */
+.footer-bg {
+	background-color: #05f;
+	height: 30px;
 }
