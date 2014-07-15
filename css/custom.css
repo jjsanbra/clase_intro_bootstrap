@@ -1,0 +1,29 @@
+/* Clase Container - Contenedor Principal */
+.container {
+	background-color: #eee;
+	height: 150px;
+}
+
+/* Clase barra-nav - Barra de Navegación Principal */
+.barra-nav {
+	background-color: #bbb;
+	height: 50px;
+}
+
+/* Clase para Aside - Aside Superior */
+.aside-bg {
+	background-color: #f55;
+	height: 200px;
+}
+
+/* Clase para Section - Sección Principal */
+.section-bg {
+	background-color: #fa0;
+	height: 250px;
+}
+
+/* Clase para Articles - Artículos de la Sección Principal */
+.article-bg {
+	background-color: #f40;
+	height: 75%;
+}
