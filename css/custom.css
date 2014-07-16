@@ -1,9 +1,6 @@
 /* Clase para Articles - Artículos de la Sección Principal */
 article {
-	background-color: rgba(80,80,80,0.5);
-	border-radius: 10px;
 	color: #fff;
-	height: 90%;
 }
 
 /* Clase Container - Contenedor Principal */
@@ -19,14 +16,14 @@ article {
 
 /* Clase para Aside - Aside Superior */
 .aside-bg {
-	/*background-color: #f55;*/
-	height: 150px;
+	background-color: #f55;
+	/*height: 150px;*/
 }
 
 /* Clase para Section - Sección Principal */
 .section-bg {
-	/*background-color: #fa0;*/
-	height: 200px;
+	background-color: #fa0;
+	/*height: 200px;*/
 }
 
 /* Clase para Footer - Footer de Página */
