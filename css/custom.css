@@ -1,6 +1,15 @@
 /* Importación de Fuentes de Google - Nunito / Open Sans */
 @import url(http://fonts.googleapis.com/css?family=Nunito:300,700|Open+Sans);
 
+/* Imagen de Fondo en etiqueta body */
+body {
+    background: url("../images/background.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* Declarar fuentes para textos de mi Página */
 h1, h2, h3, h4 {
 	font-family: "Nunito", sans-serif;
@@ -33,7 +42,7 @@ article {
 
 /* Clase Container - Contenedor Principal */
 .container {
-	background-color: #eee;
+	background-color: rgba(255,255,255,0.6);
 }
 
 /* Clase nav - Fuente en Barras de Navegación */
@@ -42,16 +51,22 @@ article {
 	font-weight: 700;
 }
 
+.nav a {
+	color: #fff;
+}
+
+.nav a:hover {
+	color: #428bca;
+}
+
 /* Clase para Aside - Aside Superior */
 .aside-bg {
-	background-color: #f55;
-	/*height: 150px;*/
+	background-color: rgba(255,85,85,0.7);
 }
 
 /* Clase para Section - Sección Principal */
 .section-bg {
-	background-color: #fa0;
-	/*height: 200px;*/
+	background-color: rgba(255,170,0,0.6);
 }
 
 /* Clase para Footer - Footer de Página */
