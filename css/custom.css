@@ -1,3 +1,31 @@
+/* Importación de Fuentes de Google - Nunito / Open Sans */
+@import url(http://fonts.googleapis.com/css?family=Nunito:300,700|Open+Sans);
+
+/* Declarar fuentes para textos de mi Página */
+h1, h2, h3, h4 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+h4 {
+	font-weight: 300;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	line-height: 2.26;
+	margin-bottom: 25px;
+}
+
+/* Estilos para Sección */
+section h1, section article h2, section article p {
+	color: #200;
+}
+
 /* Clase para Articles - Artículos de la Sección Principal */
 article {
 	color: #fff;
@@ -8,10 +36,10 @@ article {
 	background-color: #eee;
 }
 
-/* Clase barra-nav - Barra de Navegación Principal */
-.barra-nav {
-	/*background-color: #bbb;*/
-	height: 40px;
+/* Clase nav - Fuente en Barras de Navegación */
+.nav {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
 }
 
 /* Clase para Aside - Aside Superior */
@@ -27,7 +55,6 @@ article {
 }
 
 /* Clase para Footer - Footer de Página */
-.footer-bg {
-	/*background-color: #05f;*/
-	height: 30px;
+.footer-mg {
+	margin-top: 25px;
 }
